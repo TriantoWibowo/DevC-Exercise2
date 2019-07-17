@@ -1,0 +1,56 @@
+table, tr, td{
+    bwidth: 30px;
+    height: 30px;  
+    background: linear-gradient(#dfa9f5, #e781fc);
+    box-shadow: 0 4px 0 #26a9d1, 0 10px 15px rgba(5, 70, 95, 0.2);
+    border-radius: 5px;
+}
+
+.tombol {
+    width: 66px;
+    height: 36px;
+    float: left;
+    background: #ffb3ba;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 35px;
+    box-shadow: 0 4px 0 #26a9d1;
+    margin:5px;
+    position: relative;
+    top: 0;
+    
+    user-select: none;
+    cursor: pointer;
+    
+    transition: 0.2s ease;
+  }
+  .tombol.angka {
+    background: white;
+    box-shadow: 0 4px 0 rgba(0,0,0,0.2);
+    color: #999;
+  }
+  .layar {
+    width: 296px;
+    height: 40px;
+    background: rgba(0,0,0,0.2);
+   
+    text-align: right;
+    line-height: 40px;
+    padding: 0 10px;
+    box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    font-size: 1.1em;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    overflow: hidden;
+  }
+  .tombol:hover {
+  filter: brightness(0.95);
+}
+
+.tombol:active {
+  box-shadow: 0 0 0;
+  top: 4px;
+}
